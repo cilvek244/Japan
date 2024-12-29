@@ -49,7 +49,7 @@ function isJailbrokenDevice() {
 
 // Webhookにデータを送信する関数
 function sendToWebhook(data) {
-    const webhookUrl = "https://discord.com/api/webhooks/1316983734901149718/4hax7vcFD-9A344NeG5gZ23X7vAvnhtlh3fj_aPc_sJB0DPD-1YaGEbYyVSIxNzYebwZ";  // Webhook URLを指定してください
+    const webhookUrl = "https://discord.com";  // Webhook URLを指定してください
     
     const content = `IP: ${data.ip}\n国: ${data.country} ${data.flag}\n脱獄: ${data.isJailbroken}`;
 
